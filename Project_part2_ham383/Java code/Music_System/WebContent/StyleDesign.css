@@ -1,0 +1,97 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: gold; 
+    background-image: url("bgal.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;	
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #0AAEF5;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color:#0AAEF5;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: italics; 
+	color:white;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+
+#header {
+	padding-top: 20px;
+	height: 87px;
+    color:gold;
+    text-align:center;
+}
+
+#nav1 {
+    line-height:30px;
+    height:500px;
+    width:250px;
+    float:right;
+    padding:5px;
+	}
+
+
+#nav {
+    line-height:30px;
+    height:500px;
+    width:250px;
+    float:left;
+    padding:5px;	      
+}
+#section 
+{
+    width:800px;
+    height:400px;
+	float:left;
+    padding:10px;	 	 
+	margin-top: 0;
+	color: #0AAEF5; 	
+	text-align: justify;
+	
+	}
+#footer {
+    color:black;
+    clear:both;
+    text-align: center; 
+	padding:5px;	 	 
+	height: 10px; 
+	color: gold;
+	}
+
+#signout
+{	
+color: #0AAEF5;
+float: right;
+}
+
+table.tftable {font-size:12px;color:#333335;width:30%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+table.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+table.tftable tr {background-color:#d4e3e5;}
+table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}

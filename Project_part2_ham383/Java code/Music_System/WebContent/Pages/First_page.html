@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    }
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 85% georgia, sans-serif;
+	line-height: 1.88889;
+	color: gold; 
+	background-color: black;
+    background-repeat:no-repeat;
+    background-size:100%;	
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #0AAEF5;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color:#0AAEF5;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: italics; 
+	color:white;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+
+#header {
+	padding-top: 20px;
+	height: 87px;
+    background-color:D1AECD;
+    color:gold;
+    text-align:center;
+}
+
+#section 
+{
+    width:800px;
+    height:400px;
+	float:left;
+    padding:10px;	 	 
+	margin-top: 0;
+	color: black; 	
+	align: center;
+	}
+#footer 
+{
+    color:gold;
+    clear:both;
+    text-align: center; 
+	padding:5px;	 	 
+	width: auto;
+	height: 30px; 
+	}
+
+a.css3dbutton {
+    background: #c1e75c; /* default green background color of button */
+    color: black;
+    text-decoration: none;
+    font: bold 13px Arial; /* font size and style */
+    position: relative;
+    display: inline-block;
+    margin-right: 15px; /* spacing between multiple buttons */
+    padding: 15px; /* padding inside button */
+    border-radius: 85px; /* border radius of button */
+    width: 45px; /* dimensions of button */
+    height: 45px;
+    outline: none;
+    box-shadow: 0 8px 0 #8dab3b, /* depth and color of main shadow */
+        0 0 3px rgba(0,0,0, 0.2),
+        0 20px 20px #eee;
+    -moz-transition: all 0.2s ease-in-out; /* transition style and duration */
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a.css3dbutton span.outer{ /* outermost text container */
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 50%; /* center element */
+    -webkit-transform: translateY(-50%); /* center element */
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%); 
+}
+
+a.css3dbutton span.outer span.top{ /* top line */
+    display: block;
+    padding-bottom: 4px;
+}
+
+a.css3dbutton span.outer span.bottom{ /* bottom line */
+    border-top: 1px solid black;
+    padding-top: 4px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 12px;
+    font-size: 60%;
+}
+
+
+a.css3dbutton:hover {
+    background: #9cc62b; /* background color when mouse rolls over button */
+    box-shadow:  none;
+    -ms-transform: translateY(8px); /* shift button downwards by shadow depth amount */
+    -webkit-transform: translate3D(0, 8px, 0);
+    -moz-transform: translateY(8px);
+    transform: translate3D(0, 8px, 0);
+}
+
+
+a.css3dbutton.blue{
+    background: #a6e9f7;
+	float: left;
+    box-shadow: 0 8px 0 #529dad, /* depth and color of main shadow */
+        0 0 3px rgba(0,0,0, 0.2),
+        0 20px 20px #eee;
+}
+
+a.css3dbutton.blue:hover {
+    background: #66cbe1; /* background color when mouse rolls over button */
+    box-shadow: none;
+}
+
+
+a.css3dbuton.yellow{
+    background: #f3fa86;
+    box-shadow: 0 8px 0 #dbcd2f, /* depth and color of main shadow */
+        0 0 3px rgba(0,0,0, 0.2),
+        0 20px 20px #eee;
+}
+
+a.css3dbutton.yellow:hover {
+    background: #ecd347; /* background color when mouse rolls over button */
+    box-shadow: none;
+}
+
+</style>
+
+</head>
+
+<body>
+<div id="header">
+<h1>Welcome to Concert Blogger</h1>
+</div>
+<center>
+<br>
+<image src="2pg.gif">
+</center>
+<div id="center">
+
+<br><br><br>
+
+<center>
+Concert Blogger is a leading online music blog that interacts with growing audience through original content, editorial experiences & social conversations.
+</center>
+
+<center>
+On this blog you can expect to read about live music in many different genres  rock, jazz, classical, world music, klezmer, avant garde, noise, folk, and many more, including those that simply defy classification. 
+</center>
+<center>
+This blog specializes in concerts, and will cover as many aspects of that as we can - concert reviews, venue discussions and performer profiles of people who are particularly talented in the art of making live music.
+</center>
+<center>
+ We welcome submissions of ratings and reviews of shows we should check out.
+</center>
+<br>
+<center>
+<a href="WelcomePage.jsp" class="css3dbutton">
+<span class="outer">
+<span class="top">Sign In</span>
+<span class="bottom">Lets get Started</span>
+</span>
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/Music_System/Pages/SignUpPage.jsp" class="css3dbutton yellow" >
+<span class="outer">
+<span class="top">Sign Up!</span>
+<span class="bottom">It's free and fast</span>
+</span>
+</a>
+</center>
+</div>
+
+<br><br><br>
+<div id="footer">
+Copyright &copy 2014 Cocertblogger
+</div>
+
+</body>
+</html>
